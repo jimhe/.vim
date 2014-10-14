@@ -22,7 +22,7 @@ set scrolloff=999
 set mouse=a
 
 " Characters to display when showing invisible characters
-set listchars=eol:¶,tab:⇥\ ,trail:·
+set listchars=eol:¶,tab:▸\ ,trail:▫
 
 set foldmethod=indent " Fold based on indent
 set foldnestmax=5     " Deepest fold level
