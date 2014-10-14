@@ -29,3 +29,7 @@ endif
 
 " Clear screen when leaving Vim
 autocmd VimLeave * !clear
+
+" control-c for pbcopy
+vmap <C-c> :w !pbcopy<CR><CR>
+
